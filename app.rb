@@ -10,6 +10,7 @@ module FormsLab
     end
     
     get '/new' do
+<<<<<<< HEAD
       erb :"pirates/new"
     end
     
@@ -29,6 +30,13 @@ module FormsLab
 
       # redirect to :"pirates/#{pirate_id}"
       erb :"pirates/show"
+=======
+      erb "pirates/new"
+    end
+    
+    post '/pirates' do
+      erb "pirates/show"
+>>>>>>> 651904acf10b9cfdcb4b9b413c72e64a50895bf9
     end
 
   end
